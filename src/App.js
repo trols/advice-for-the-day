@@ -20,7 +20,6 @@ const [participants, setParticipants] = useState("");
     
   return (
     <div className='App'>
-      
       <div>
         <h1>What would you like to do today?</h1>
       </div>
