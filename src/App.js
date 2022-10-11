@@ -27,12 +27,12 @@ const [participants, setParticipants] = useState("");
       <form>
 <button onClick={()=>getAdvice()}>advice for the day</button>
 </form>
-<div className='block'>
+<p>Type of activity:  <span>{type}</span></p>
 <h2 className='typewriter'>{advice}</h2>
 
-<p>Type of activity:  <span>{type}</span></p>
+
 <h3>{participants === 1 ? "for " +  participants + " participant" : "for " +  participants  +  " participants"}</h3>
-</div></div>
+</div>
   );
 }
 
