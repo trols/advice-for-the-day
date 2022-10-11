@@ -26,13 +26,12 @@ button{
   font-family: 'Roboto', sans-serif;
 }
 button:hover{
-  background-color: #D58BDD;
-  color: aliceblue;
+  color: #D58BDD;
   font-weight: bold;
-}
+  }
 h1{
   font-family: 'Roboto', sans-serif;
-  color: #562B08;
+  color: #461111;
 }
 p{
   font-family: 'Roboto', sans-serif;
@@ -41,7 +40,7 @@ p{
 }
 h3{
   font-family: 'Roboto', sans-serif;
-  color: #F637EC;
+  color:  rgb(246,55,236);
 }
 span{
   color: #F637EC;

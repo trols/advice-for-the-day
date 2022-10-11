@@ -4,7 +4,7 @@ import {useEffect,useState} from "react";
 
 
 function App() {
-const[advice,setAdvice]=useState(" ");
+const[advice,setAdvice]=useState("");
 const[type,setType]=useState("");
 const [participants, setParticipants] = useState("");
   useEffect(()=>{
@@ -24,13 +24,10 @@ const [participants, setParticipants] = useState("");
       <div>
         <h1>What would you like to do today?</h1>
       </div>
-      <form>
+      
 <button onClick={()=>getAdvice()}>advice for the day</button>
-</form>
-<p>Type of activity:  <span>{type}</span></p>
+<p>Type of activity :  <span>{type}</span></p>
 <h2 className='typewriter'>{advice}</h2>
-
-
 <h3>{participants === 1 ? "for " +  participants + " participant" : "for " +  participants  +  " participants"}</h3>
 </div>
   );
